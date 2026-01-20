@@ -1,5 +1,8 @@
-# This project analyzes e-commerce retail data using SQL (SQLite) to uncover customer purchasing behavior and revenue patterns.
-# The analysis focuses on aggregations, subqueries, and filtering techniques to identify top-revenue invoices and understand customer order trends.
+# ecommerce-sql-analysis
+
+Beginner SQL project using e-commerce retail data.
+This project analyzes e-commerce retail data using SQL (SQLite) to uncover customer purchasing behavior and revenue patterns.
+The analysis focuses on aggregations, subqueries, and filtering techniques to identify top-revenue invoices and understand customer order trends.
 
 # Tools Used
 - SQL (SQLite compatible)
