@@ -21,8 +21,7 @@ ecomm-sql-analysis/
 │   ├── 03_product_pricing.sql
 │   ├── 04_date_filter_analysis.sql
 │   ├── 05_above_avg_price.sql
-│   ├── 06_invoice_revenue.sql
-│   └── 07_top_invoices.sql
+│   ├── 06_top_invoice_revenue.sql
 │
 └── README.md
 ```
