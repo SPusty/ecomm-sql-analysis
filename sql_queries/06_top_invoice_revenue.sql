@@ -1,11 +1,11 @@
-select t.invoiceno,
+SELECT t.invoiceno,
        sum(t.line_total) as total_price
-from (
-    select invoiceno,
+FROM (
+    SELECT invoiceno,
            (unitprice * quantity) as line_total
-    from online_retail_2001
-    where invoiceno not like 'C%'
+    FROM online_retail_2001
+    WHERE invoiceno NOT LIKE 'C%'
 ) t
-group by t.invoiceno
-order by t.total_price desc
-limit 5;
+GROUP BY t.invoiceno
+ORDER BY t.total_price DESC
+LIMIT 5;
