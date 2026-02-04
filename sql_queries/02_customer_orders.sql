@@ -1,3 +1,3 @@
-select customerid, count(distinct invoiceno) as total_order
-from online_retail_2001
-group by customerid;
+SELECT customerid, count(DISTINCT invoiceno) AS total_order
+FROM online_retail_2001
+GROUP BY customerid;
